@@ -2,6 +2,14 @@
 
 Este é um projeto web que inclui uma página principal, cadastro de usuários e páginas de política de privacidade e termos e condições. Além disso, contém arquivos para estilização e scripts.
 
+# participantes do projeto integrado
+Eduardo Corbano Lourenço, RA 24001663
+Elton Mazzali Pinto, RA 24002287
+Joice Grazieli Vieira, RA 24002213
+Kathlyn Rose Silveira, RA 24002286
+
+
+
 ## Estrutura do Projeto
 
 A estrutura de diretórios e arquivos do projeto é organizada da seguinte maneira:
