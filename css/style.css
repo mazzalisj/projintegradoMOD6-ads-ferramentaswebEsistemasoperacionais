@@ -1,0 +1,638 @@
+/* style.css */
+
+body {
+    background-color: #fff;
+}
+
+
+
+/* Barra de Navegação */
+.navbar {
+    background-color: #f0f0f0 !important;
+}
+
+.navbar-brand {
+    color: #dc3545;
+}
+
+.navbar-brand img.navbar-logo {
+    height: 4rem; /* Ajuste este valor conforme a altura do seu menu */
+    width: auto; /* Mantém a proporção da imagem */
+}
+
+.navbar-nav .nav-link {
+    color: #000 !important;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: red !important; /* Mantém o link ativo branco */
+}
+
+.navbar-nav .btn-danger {
+    color: white; /* Garante que o texto do botão de cadastro seja branco */
+}
+
+/* Estilo para o hover do menu */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: red !important; /* Altera a cor do texto para vermelho no hover */
+}
+
+/* Estilo para a cor do texto do botão de cadastro */
+.navbar-nav .btn-danger {
+    color: white !important; /* Garante que o texto do botão seja branco */
+}
+
+/* Estilo para o hover do menu */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: red !important; /* Altera a cor do texto para vermelho no hover */
+}
+
+/* Estilo para a cor do texto do botão de cadastro */
+.navbar-nav .btn-danger {
+    color: white !important; /* Garante que o texto do botão seja branco */
+    /* Adicionando transição para o hover ficar suave */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover bonito para o botão de cadastro */
+.navbar-nav .btn-danger:hover {
+    background-color: red; /* Cor de fundo original do Bootstrap danger */
+    filter: brightness(120%); /* Aumenta o brilho da cor de fundo no hover */
+    /* Ou, se preferir uma cor específica: */
+    /* background-color: #ff4d4d; */ /* Um vermelho um pouco mais claro */
+}
+
+/* Estilo para o hover do menu */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: red !important; /* Altera a cor do texto para vermelho no hover */
+}
+
+/* Estilo para a cor do texto do botão de cadastro */
+.navbar-nav .btn-danger {
+    color: white !important; /* Garante que o texto do botão seja branco */
+    /* Adicionando transição para o hover ficar suave */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona transição para a cor do texto também */
+}
+
+/* Hover vermelho com texto cinza para o botão de cadastro */
+.navbar-nav .btn-danger:hover {
+    background-color: #ccc; /* Cor de fundo vermelha no hover */
+    color: #6c757d !important; /* Cor do texto cinza no hover (equivalente ao Bootstrap .text-secondary) */
+}
+
+/* Header (Jumbotron) */
+.jumbotron {
+    background-color: #dc3545 !important;
+    white-space: pre-line;
+}
+
+.jumbotron h1 {
+    color: #f0f0f0; /* Cor vermelha para o título principal do header */
+}
+
+/* Seção Sobre Nós */
+#sobre {
+    background-color: #f8f9fa;
+}
+
+#sobre h2 {
+    color: #212529;
+}
+
+#sobre .lead,
+#sobre p {
+    color: #6c757d;
+}
+
+#sobre .btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+#sobre .btn-outline-danger:hover {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+}
+
+/* Seção Modalidades */
+#modalidades {
+    background-color: #e9ecef;
+}
+
+#modalidades h2 {
+    color: #212529;
+}
+
+#modalidades .card {
+    border: 0;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+#modalidades .card-title {
+    color: #212529;
+}
+
+#modalidades .card-text {
+    color: #6c757d;
+}
+
+#modalidades .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+}
+
+#modalidades .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+#modalidades .btn-outline-dark {
+    color: #212529;
+    border-color: #343a40;
+}
+
+#modalidades .btn-outline-dark:hover {
+    background-color: #343a40;
+    border-color: #343a40;
+    color: white;
+}
+
+/* Seção Planos */
+#planos {
+    background-color: #343a40;
+    color: white;
+}
+
+#planos .card {
+    border: 0;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+#planos .card-header {
+    background-color: #e9ecef;
+    color: #212529;
+}
+
+#planos .card.bg-light .card-header {
+    background-color: #e9ecef;
+    color: #212529;
+}
+
+#planos .card.bg-light .card-title,
+#planos .card.bg-light .list-unstyled {
+    color: #212529;
+}
+
+#planos .card.bg-light .list-unstyled li {
+    color: #6c757d;
+}
+
+#planos .card.text-white.bg-primary .card-header {
+    background-color: #c82333 !important;
+}
+
+#planos .card .card-title {
+    color: #212529;
+}
+
+#planos .card.text-white .card-title {
+    color: white;
+}
+
+#planos .card .list-unstyled {
+    color: #6c757d;
+}
+
+#planos .card.text-white .list-unstyled {
+    color: white;
+}
+
+#planos .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+}
+
+#planos .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+#planos .btn-light {
+    color: #212529;
+}
+
+#planos .btn-light:hover {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+/* Seção Contato */
+#contato {
+    background-color: #f8f9fa;
+}
+
+#contato h2 {
+    color: #212529;
+}
+
+#contato .lead,
+#contato label,
+#contato h4,
+#contato p {
+    color: #212529; /* Cor do texto principal e títulos */
+}
+
+#contato .lead {
+    color: #6c757d; /* Cor do texto de apoio */
+}
+
+#contato .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+}
+
+#contato .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Rodapé */
+footer {
+    background-color: #212529 !important;
+    color: white !important;
+}
+
+footer a {
+    color: #dc3545;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos adicionais para o slider */
+        .carousel-item {
+            height: 600px; /* Ajuste a altura conforme necessário */
+            background-color: #000; /* Cor de fundo para o caso da imagem não carregar ou ser transparente */
+            overflow: hidden; /* Garante que a imagem não transborde se não for exatamente 600px de altura */
+        }
+        .carousel-item img {
+            object-fit: cover; /* Garante que a imagem cubra toda a área do container, cortando o excesso */
+            height: 100%; /* Faz a imagem preencher a altura do carousel-item */
+            width: 100%; /* Faz a imagem preencher a largura do carousel-item */
+        }
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        /* Correção para o "salto" da âncora com navbar fixa */
+        section:before {
+            display: block;
+            content: " ";
+            margin-top: -70px; /* Ajuste este valor para a altura da sua navbar */
+            height: 70px; /* Mesma altura da sua navbar */
+            visibility: hidden;
+            pointer-events: none;
+        }
+		
+		/* Estilos gerais (se você tiver algum, mantenha-o aqui) */
+body {
+    padding-top: 56px; /* Ajusta o conteúdo para não ficar por baixo da navbar fixa */
+}
+
+/* Estilos para o slider (mantidos da versão anterior) */
+.carousel-item {
+    height: 600px; /* Ajuste a altura conforme necessário */
+    background-color: #000; /* Cor de fundo para o caso da imagem não carregar ou ser transparente */
+    overflow: hidden; /* Garante que a imagem não transborde se não for exatamente 600px de altura */
+}
+
+.carousel-item img {
+    object-fit: cover; /* Garante que a imagem cubra toda a área do container, cortando o excesso */
+    height: 100%; /* Faz a imagem preencher a altura do carousel-item */
+    width: 100%; /* Faz a imagem preencher a largura do carousel-item */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Correção para o "salto" da âncora com navbar fixa (mantido da versão anterior) */
+section:before {
+    display: block;
+    content: " ";
+    margin-top: -70px; /* Ajuste este valor para a altura da sua navbar */
+    height: 70px; /* Mesma altura da sua navbar */
+    visibility: hidden;
+    pointer-events: none;
+}
+
+/* --- Novos estilos para enquadrar as imagens --- */
+
+/* Estilos para a imagem da seção "Sobre Nós" */
+#sobre .img-fluid.rounded {
+    border: 3px solid #dc3545; /* Uma borda sólida vermelha para enquadrar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para destacar */
+    /* A classe 'rounded' do Bootstrap já cuida dos cantos arredondados */
+    /* Você pode ajustar o 'border-radius' se quiser um arredondamento diferente do padrão do Bootstrap */
+    /* border-radius: 10px; */
+}
+
+/* Estilos para as imagens das modalidades dentro dos cards */
+.modalidade-img {
+    height: 200px; /* Altura fixa para todas as imagens das modalidades */
+    object-fit: cover; /* Garante que a imagem preencha o espaço, cortando o excesso */
+    width: 100%; /* Faz a imagem preencher a largura total do card */
+    border-top-left-radius: 0.25rem; /* Copia o border-radius do card-img-top do Bootstrap */
+    border-top-right-radius: 0.25rem; /* Para que a imagem se encaixe perfeitamente no topo do card */
+    border: 2px solid #dc3545; /* Adiciona uma borda vermelha para enquadrar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para um efeito de profundidade */
+}
+
+/* Para garantir que as sombras e bordas do card e da imagem se complementem,
+   podemos ajustar a sombra do card se desejar um efeito mais integrado */
+.card.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; /* Padrão do Bootstrap */
+    /* Se quiser uma sombra mais pronunciada: */
+    /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3) !important; */
+}
+
+/* Estilos gerais (se você tiver algum, mantenha-o aqui) */
+body {
+    padding-top: 56px; /* Ajusta o conteúdo para não ficar por baixo da navbar fixa */
+}
+
+/* Estilos para o slider (mantidos da versão anterior) */
+.carousel-item {
+    height: 600px; /* Ajuste a altura conforme necessário */
+    background-color: #000; /* Cor de fundo para o caso da imagem não carregar ou ser transparente */
+    overflow: hidden; /* Garante que a imagem não transborde se não for exatamente 600px de altura */
+}
+
+.carousel-item img {
+    object-fit: cover; /* Garante que a imagem cubra toda a área do container, cortando o excesso */
+    height: 100%; /* Faz a imagem preencher a altura do carousel-item */
+    width: 100%; /* Faz a imagem preencher a largura do carousel-item */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Correção para o "salto" da âncora com navbar fixa (mantido da versão anterior) */
+section:before {
+    display: block;
+    content: " ";
+    margin-top: -30px; /* Ajuste este valor para a altura da sua navbar */
+    height: 70px; /* Mesma altura da sua navbar */
+    visibility: hidden;
+    pointer-events: none;
+}
+
+/* --- Estilos para o destaque do Plano Intermediário --- */
+.plan-destaque {
+    border: 2px solid #dc3545 !important; /* Borda vermelha (warning) mais grossa */
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.25) !important; /* Sombra mais forte */
+    transform: scale(1.05); /* Leve aumento de tamanho para destacar */
+    transition: all 0.3s ease-in-out; /* Transição suave para a animação */
+    position: relative; /* Necessário para posicionar o badge */
+    z-index: 10; /* Garante que ele fique acima dos outros cards na camada Z */
+    background-color: #fff !important; /* Mantém o fundo branco, mas garante a ordem de precedência */
+}
+
+.plan-destaque .card-header {
+    background-color: #cccccc !important; /* Fundo amarelo para o cabeçalho */
+    color: #fff !important; /* Texto escuro para contraste */
+}
+
+.plan-destaque .card-title,
+.plan-destaque ul li,
+.plan-destaque .card-body small {
+    color: #343a40 !important; /* Garante que o texto seja branco */
+}
+
+.plan-destaque .btn-light {
+    color: #fff !important; /* Cor do texto do botão */
+    background-color: #dc3545 !important; /* Fundo do botão vermelho */
+    border-color: #fff !important; /* Borda do botão branca */
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+
+/* Efeito de hover para o plano em destaque */
+.plan-destaque:hover {
+    transform: scale(1.07); /* Aumenta ainda mais ao passar o mouse */
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.35) !important; /* Sombra mais intensa no hover */
+}
+
+/* Opcional: Adicionar um badge de "Popular" */
+.plan-destaque:before {
+    content: "POPULAR";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #dc3545; /* Cor vermelha do Bootstrap */
+    color: white;
+    padding: 5px 15px;
+    border-top-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    font-weight: bold;
+    font-size: 0.8em;
+    transform: translateY(-50%) translateX(25%) rotate(45deg); /* Ajusta a posição e rotaciona */
+    transform-origin: 100% 0%;
+    z-index: 100;
+}
+
+/* --- Estilos para enquadrar as imagens (mantidos da versão anterior) --- */
+
+/* Estilos para a imagem da seção "Sobre Nós" */
+#sobre .img-fluid.rounded {
+    border: 3px solid #dc3545; /* Uma borda sólida vermelha para enquadrar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para destacar */
+}
+
+/* Estilos para as imagens das modalidades dentro dos cards */
+.modalidade-img {
+    height: 200px; /* Altura fixa para todas as imagens das modalidades */
+    object-fit: cover; /* Garante que a imagem preencha o espaço, cortando o excesso */
+    width: 100%; /* Faz a imagem preencher a largura total do card */
+    border-top-left-radius: 0.25rem; /* Copia o border-radius do card-img-top do Bootstrap */
+    border-top-right-radius: 0.25rem; /* Para que a imagem se encaixe perfeitamente no topo do card */
+    border: 2px solid #dc3545; /* Adiciona uma borda vermelha para enquadrar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para um efeito de profundidade */
+}
+
+/* Para garantir que as sombras e bordas do card e da imagem se complementem,
+   podemos ajustar a sombra do card se desejar um efeito mais integrado */
+.card.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; /* Padrão do Bootstrap */
+}
+
+/* NOVOS ESTILOS EXCLUSIVOS PARA A PÁGINA DE POLÍTICA DE PRIVACIDADE */
+.politica-page {
+    background-color: #fff; /* Fundo branco para esta página */
+    color: #333; /* Texto preto para esta página */
+}
+
+/* Garante que os links dentro da página de política de privacidade sejam pretos */
+.politica-page a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Hover para links dentro da página de política de privacidade */
+.politica-page a:hover {
+    color: #6c757d;
+    text-decoration: underline;
+}
+
+/* Garante que o texto dentro do container desta página seja preto */
+.politica-page .container {
+    color: #333;
+}
+
+/* Estilos para o banner de Política de Privacidade */
+.privacy-policy-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente escuro */
+    color: white;
+    padding: 15px 0;
+    z-index: 1050; /* Garante que fique acima de outros elementos */
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.privacy-policy-banner .container {
+    display: flex; /* Para alinhar o texto e o botão */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.privacy-policy-banner p {
+    margin-right: 20px; /* Espaço entre o texto e o botão */
+}
+
+.privacy-policy-banner .policy-link {
+    color: white; /* Garante que o link seja branco dentro do banner escuro */
+    text-decoration: underline;
+}
+
+.privacy-policy-banner .policy-link:hover {
+    color: #cccccc; /* Um tom de cinza claro no hover */
+}
+
+.privacy-policy-banner .btn-light {
+    background-color: white;
+    color: #333;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.privacy-policy-banner .btn-light:hover {
+    background-color: #e2e6ea; /* Um cinza mais claro no hover */
+    color: #000;
+}
+
+
+.navbar-toggler-icon {
+    /* Cor vermelha do Bootstrap (danger) */
+   background-color: red !important;
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(220, 53, 69, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+
+/* Garante que o ícone se adapte à cor do texto do toggler, se aplicável */
+.navbar-dark .navbar-toggler {
+    border-color: rgba(220, 53, 69, 1) !important; /* Borda do botão também vermelha */
+}
+/* Estilo para o botão de aceitar cookies */
+/* Assumindo que o botão tenha a classe 'btn-danger' ou uma classe específica como 'cookie-accept-btn' */
+.btn-danger { /* ou .cookie-accept-btn */
+    color: white !important; /* Garante que o texto seja branco */
+}
+
+/* Se você tiver um banner de cookies específico, e o botão estiver dentro dele */
+.cookie-banner .btn {
+    color: white !important;
+}
+
+/* Styles specific for the Privacy Policy page */
+.politica-page {
+    background-color: white; /* Define o fundo da página de política de privacidade para branco */
+    color: black;            /* Define a cor do texto padrão para preto */
+}
+
+.politica-page .navbar {
+    background-color: white !important; /* Navbar no topo da página de política de privacidade será branca */
+}
+
+.politica-page .navbar-dark .navbar-nav .nav-link {
+    color: black !important; /* Links do menu na navbar (Política de Privacidade) */
+}
+
+.politica-page .navbar-dark .navbar-brand {
+    color: black !important; /* Cor do texto da marca (se for texto) na navbar (Política de Privacidade) */
+}
+
+.politica-page .navbar-toggler-icon {
+    /* If the toggler icon is white by default, invert its color to black */
+    filter: invert(1) !important;
+}
+
+.politica-page .footer {
+    background-color: white !important; /* Garante que o rodapé desta página seja branco */
+}
+
+.politica-page .footer p,
+.politica-page .footer a {
+    color: black !important; /* Garante que o texto e links do rodapé desta página sejam pretos */
+}
+
+/* Ensure all headings, paragraphs, and lists are black within the content area */
+.politica-page h1,
+.politica-page h2,
+.politica-page h3,
+.politica-page h4,
+.politica-page h5,
+.politica-page h6,
+.politica-page p,
+.politica-page ul,
+.politica-page ol,
+.politica-page li,
+.politica-page a {
+    color: black;
+}
+
+/* Specifically for links within the content (not navbar or footer) */
+.politica-page .container a {
+    color: #007bff; /* Keeps a default blue for internal links, or set to black if preferred */
+}
+
+.politica-page .container a:hover {
+    color: #0056b3; /* Hover color for internal links */
+}
+
+/* Adjust for the text-muted class if it's used and needs to be visible */
+.politica-page .text-muted {
+    color: #6c757d !important; /* Keep it muted but visible on white. Adjust if you want it darker. */
+}
+

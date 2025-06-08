@@ -1,0 +1,72 @@
+/* css/privacy-banner.css */
+.privacy-policy-banner {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente escuro */
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1050; /* Z-index alto para garantir que fique acima de tudo */
+    max-width: 380px; /* Largura máxima para melhor visualização em desktops */
+    display: flex;
+    flex-direction: column; /* Para empilhar o texto e o botão em telas menores */
+    align-items: flex-start; /* Alinha o conteúdo à esquerda */
+    gap: 10px; /* Espaço entre os elementos */
+    font-size: 0.9rem; /* Tamanho da fonte um pouco menor */
+    line-height: 1.4;
+    transition: opacity 0.5s ease-in-out; /* Transição suave para aparecer/desaparecer */
+    opacity: 1; /* Inicia visível */
+}
+
+.privacy-policy-banner p {
+    margin-bottom: 0;
+}
+
+.privacy-policy-banner .policy-link {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.privacy-policy-banner .policy-link:hover {
+    color: #87CEEB; /* Mudar cor ao passar o mouse */
+}
+
+.privacy-policy-banner #accept-privacy {
+    background-color: #dc3545; /* Cor do botão correspondente ao seu tema (vermelho do danger) */
+    border-color: #dc3545;
+    white-space: nowrap; /* Evita quebra de linha no botão */
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    align-self: flex-end; /* Alinha o botão à direita no layout de coluna */
+}
+
+.privacy-policy-banner #accept-privacy:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Esconde o banner quando a classe 'hidden' é aplicada */
+.privacy-policy-banner.hidden {
+    opacity: 0;
+    pointer-events: none; /* Desabilita cliques quando escondido */
+}
+
+/* Media query para telas menores */
+@media (max-width: 767.98px) {
+    .privacy-policy-banner {
+        right: 10px;
+        left: 10px;
+        bottom: 10px;
+        max-width: unset; /* Remove a largura máxima para ocupar a tela */
+        flex-direction: column; /* Garante que fique em coluna */
+        align-items: center; /* Centraliza o conteúdo */
+        text-align: center;
+    }
+
+    .privacy-policy-banner #accept-privacy {
+        width: 100%; /* Botão ocupa toda a largura */
+        align-self: stretch; /* Estica o botão para preencher */
+    }
+}

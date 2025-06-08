@@ -1,0 +1,10 @@
+/* Estilo para o ícone do menu mobile (hamburger) */
+.navbar-toggler .hamburger-icon {
+    width: 1.5em; /* Ajuste o tamanho conforme necessário */
+    height: 1.5em; /* Ajuste o tamanho conforme necessário */
+    vertical-align: middle;
+}
+
+.navbar-toggler .hamburger-icon path {
+    stroke: red; /* Define a cor dos risquinhos do hamburger para vermelho */
+}
