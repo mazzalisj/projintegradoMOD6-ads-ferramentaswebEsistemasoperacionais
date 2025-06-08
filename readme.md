@@ -1,4 +1,4 @@
-# Projeto integrado modulo 6 - unifebo - analise e desenvolvimento de sistemas e ferramentas web
+# Projeto integrado modulo 6 - unifeob - analise e desenvolvimento de sistemas e ferramentas web
 
 Este é um projeto web que inclui uma página principal, cadastro de usuários e páginas de política de privacidade e termos e condições. Além disso, contém arquivos para estilização e scripts.
 
